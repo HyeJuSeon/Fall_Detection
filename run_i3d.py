@@ -130,4 +130,4 @@ def run(init_lr=0.1, num_epochs=100, mode='rgb', root='gdrive/MyDrive/sw_capston
                     torch.save(i3d.module.state_dict(), save_model + str(epoch + 1).zfill(6) + '.pt')
                 val_acc.append(current_acc)
             acc.clear()
-    return train_acc, val_acc 
+    return train_acc, val_acc  
