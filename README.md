@@ -8,14 +8,14 @@
 - 2025년 초고령 사회 진입할 것으로 예측
 - 노약자의 경우 뇌졸중 등으로 인한 낙상 사고가 빈번하고 낙상으로 인한 2차 피해 발생 가능성이 높음
 
-## 2. 데이터셋
+## 2. Dataset
 
 - URFD Dataset
 - AI Hub 시니어 이상행동 영상
 
 ## 3. Training
 
-### C3D
+### 1) C3D
 
 - URFD(RGB)
 
@@ -33,7 +33,7 @@
 
 <img src="/img/aihub/c3d_pose_epoch10.png" width="400" height="250">
 
-### I3D
+### 2) I3D
 
 - URFD(RGB)
 
@@ -55,6 +55,15 @@
 
 <img src="/img/aihub/i3d_imagenet_pose_lr0.0025_epoch4.png" width="400" height="250">
 
+## 4. 결론 및 기대효과
+
+### 1) 결론
+- Openpose를 이용하여 이미지에 pose line을 그린 경우 최대 5% 성능 향상
+- AI Hub 데이터의 경우 배경이 다양하고 차지하는 비율이 높아 비교적 성능이 떨어짐
+
+### 2) 기대효과
+- 낙상으로 인한 노약자 사고 및 사망 예방 효과를 기대할 수 있음
+- 카메라를 통한 노약자의 스마트 돌봄 서비스에 이용 가능
 
 ## Link
 
