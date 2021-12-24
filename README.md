@@ -11,7 +11,12 @@
 ## 2. Dataset
 
 - URFD Dataset
+
+  ADL: 40 clip, Fall: 30 clip
+  
 - AI Hub 시니어 이상행동 영상
+
+  ADL: 700 clip, Fall: 700 clip
 
 ## 3. Model
 
