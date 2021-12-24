@@ -43,8 +43,8 @@
 - Input shape: (16, 112, 112, 3)
 - Optimizer: Adam
 - 모든 Conv layer은 3x3x3 kernel을 사용한다.
-- 첫 번째 Pooling layer는 1x1x2 kernel과 stride를 사용하고 나머지 Pooling layer는 2x2x2 kernel과 stride를 사용한다.
-  - 첫 번째만 다른 이유는 시간 정보가 빨리 머지되는 것을 방지하기 위함이다.
+- 첫 번째 Pooling layer는 1x2x2 kernel과 stride를 사용하고 나머지 Pooling layer는 2x2x2 kernel과 stride를 사용한다.
+  - 첫 번째만 다른 이유는 시간축 정보가 빨리 머지되는 것을 방지하기 위함이다.
 
 ### 2) I3D
 
