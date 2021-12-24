@@ -72,7 +72,7 @@
 
   <img src="/img/aihub/c3d_pose_epoch10.png" width="500" height="300">
 
-### 2) I3D
+### 2) I3D(pretrained on Imagenet)
 
 - URFD(RGB)
 
