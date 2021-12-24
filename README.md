@@ -12,13 +12,25 @@
 
   ADL: 40 clip, Fall: 30 clip
   
+  - RGB
+  
   <img src="/img/urfd.png" width="400" height="250">
+  
+  - Openpose
+  
+  <img src="/img/urfd_pose.png" width="400" height="250">
   
 - AI Hub 시니어 이상행동 영상
 
   ADL: 700 clip, Fall: 700 clip
-
+  
+  - RGB
+  
   <img src="/img/aihub.png" width="400" height="250">
+  
+  - Openpose
+
+  <img src="/img/aihub_pose.png" width="400" height="250">
 
 ## 3. Model
 
