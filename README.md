@@ -92,7 +92,7 @@
 |URFD(Optical Flow)|-|1|
 |URFD(Openpose)|1|1|
 |AI Hub(RGB)|0.97|0.92|
-|AI Hub(Openpose)|0.0.97|0.97|
+|AI Hub(Openpose)|0.97|0.97|
 
 
 ## 4. Conclusion
