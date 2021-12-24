@@ -34,15 +34,27 @@
 
 ## 3. Model
 
+아래 2개의 모델에 RGB 이미지와 Openpose 라이브러리를 이용하여 pose line을 그린 이미지를 넣는다.(I3D는 Optical Flow도)
+
 ### 1) C3D
 
 <img src="/img/c3d.png">
+
+- Input shape: (16, 112, 112, 3)
+- Optimizer: Adam
+- 모든 Conv layer은 3x3x3 kernel을 사용한다.
+- 첫 번째 Pooling layer는 1x1x2 kernel과 stride를 사용하고 나머지 Pooling layer는 2x2x2 kernel과 stride를 사용한다.
+  - 첫 번째만 다른 이유는 시간 정보가 빨리 머지되는 것을 방지하기 위함이다.
 
 ### 2) I3D
 
 <img src="/img/i3d.png">
 
-- 위 2개의 모델에 RGB 이미지와 Openpose 라이브러리를 이용하여 pose line을 그린 이미지를 넣는다.(I3D는 Optical Flow도)
+- Input shape: (64, 224, 224, 3)
+- Optimizer: SGD
+- Momentum:0.9
+- Inception-v1 module을 사용한다.
+- C3D와 동일한 이유로 두 번째 Max pooing layer까지는 1x2x2 kernel과 stride를 사용하고 나머지 Max pooling layer는 2x2x2 kernel과 stride를 사용한다.
 
 ## 4. Training
 
