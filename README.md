@@ -30,7 +30,7 @@
 
 <img src="/img/i3d.png">
 
-- 위 2개의 모델에 RGB 이미지와 Openpose 라이브러리를 이용하여 pose line을 그린 이미지를 넣음(I3D는 Optical Flow도)
+- 위 2개의 모델에 RGB 이미지와 Openpose 라이브러리를 이용하여 pose line을 그린 이미지를 넣는다.(I3D는 Optical Flow도)
 
 ## 4. Training
 
