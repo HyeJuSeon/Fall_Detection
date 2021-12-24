@@ -13,7 +13,13 @@
 - URFD Dataset
 - AI Hub 시니어 이상행동 영상
 
-## 3. Training
+## 3. Model
+
+### 1) C3D
+
+### 2) I3D
+
+## 4. Training
 
 ### 1) C3D
 
