@@ -51,9 +51,10 @@
 <img src="/img/i3d.png">
 
 - Input shape: (64, 224, 224, 3)
+  - frame을 (256, 256)로 resize 후 (224, 224)로 random crop
 - Optimizer: SGD
 - Momentum:0.9
-- Inception-v1 module을 사용한다.
+- Imagenet pretrained Inception-V1 module을 사용한다.
 - C3D와 동일한 이유로 두 번째 Max pooing layer까지는 1x2x2 kernel과 stride를 사용하고 나머지 Max pooling layer는 2x2x2 kernel과 stride를 사용한다.
 
 ## 4. Training
