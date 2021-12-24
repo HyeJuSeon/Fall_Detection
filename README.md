@@ -43,25 +43,25 @@
 
   Best accuracy: 1
 
-  <img src="/img/urfd/c3d_rgb_epoch100.png" width="400" height="250">
+  <img src="/img/urfd/c3d_rgb_epoch100.png" width="500" height="300">
 
 - URFD(Openpose)
 
   Best accuracy: 1
 
-  <img src="/img/urfd/c3d_pose_epoch100.png" width="400" height="250">
+  <img src="/img/urfd/c3d_pose_epoch100.png" width="500" height="300">
 
 - AI Hub(RGB)
 
   Best accuracy: 0.97
 
-  <img src="/img/aihub/c3d_rgb_epoch10.png" width="400" height="250">
+  <img src="/img/aihub/c3d_rgb_epoch10.png" width="500" height="300">
 
 - AI Hub(Openpose)
 
   Best accuracy: 0.97
 
-  <img src="/img/aihub/c3d_pose_epoch10.png" width="400" height="250">
+  <img src="/img/aihub/c3d_pose_epoch10.png" width="500" height="300">
 
 ### 2) I3D
 
@@ -69,31 +69,31 @@
 
   Best accuracy: 1
 
-  <img src="/img/urfd/i3d_imagenet_rgb_lr0.01_epoch100.png" width="400" height="250">
+  <img src="/img/urfd/i3d_imagenet_rgb_lr0.01_epoch100.png" width="500" height="300">
 
 - URFD(Optical Flow)
 
   Best accuracy: 1
 
-  <img src="/img/urfd/i3d_imagenet_flow_lr0.01_epoch100.png" width="400" height="250">
+  <img src="/img/urfd/i3d_imagenet_flow_lr0.01_epoch100.png" width="500" height="300">
 
 - URFD(Openpose)
 
   Best accuracy: 1
 
-  <img src="/img/urfd/i3d_imagenet_pose_lr0.01_epoch100.png" width="400" height="250">
+  <img src="/img/urfd/i3d_imagenet_pose_lr0.01_epoch100.png" width="500" height="300">
 
 - AI Hub(RGB)
 
   Best accuracy: 0.92
 
-  <img src="/img/aihub/i3d_imagenet_rgb_lr0.0025_epoch4.png" width="400" height="250">
+  <img src="/img/aihub/i3d_imagenet_rgb_lr0.0025_epoch4.png" width="500" height="300">
 
 - AI Hub(Openpose)
 
   Best accuracy: 0.97
 
-  <img src="/img/aihub/i3d_imagenet_pose_lr0.0025_epoch4.png" width="400" height="250">
+  <img src="/img/aihub/i3d_imagenet_pose_lr0.0025_epoch4.png" width="500" height="300">
 
 ## 4. Conclusion
 
